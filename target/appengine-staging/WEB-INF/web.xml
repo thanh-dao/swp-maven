@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	 version="3.1">
+    <!-- JSPC servlet mappings start -->
+
+    <servlet>
+        <servlet-name>org.apache.jsp.index_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.index_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.WEB_002dINF.views.home.reviewProduct_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.WEB_002dINF.views.home.reviewProduct_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.WEB_002dINF.views.home.checkProduct_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.WEB_002dINF.views.home.checkProduct_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.WEB_002dINF.views.home.uploadProduct_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.WEB_002dINF.views.home.uploadProduct_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.WEB_002dINF.views.home.main_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.WEB_002dINF.views.home.main_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.WEB_002dINF.views.cart.shipInformation_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.WEB_002dINF.views.cart.shipInformation_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.WEB_002dINF.views.cart.thanks_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.WEB_002dINF.views.cart.thanks_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.WEB_002dINF.views.home.productDetail_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.WEB_002dINF.views.home.productDetail_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.WEB_002dINF.views.error.index_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.WEB_002dINF.views.error.index_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.WEB_002dINF.views.cart.billInformation_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.WEB_002dINF.views.cart.billInformation_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.WEB_002dINF.views.home.productList_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.WEB_002dINF.views.home.productList_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.WEB_002dINF.views.cart.pay_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.WEB_002dINF.views.cart.pay_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.WEB_002dINF.views.cart.cart_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.WEB_002dINF.views.cart.cart_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.WEB_002dINF.views.admin.reviewAuthen_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.WEB_002dINF.views.admin.reviewAuthen_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.WEB_002dINF.views.order.dashboard_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.WEB_002dINF.views.order.dashboard_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.WEB_002dINF.views.user.shopInformation_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.WEB_002dINF.views.user.shopInformation_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.WEB_002dINF.views.user.googleLoginHandle_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.WEB_002dINF.views.user.googleLoginHandle_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.WEB_002dINF.views.admin.productAuthen_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.WEB_002dINF.views.admin.productAuthen_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.WEB_002dINF.views.user.login_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.WEB_002dINF.views.user.login_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.WEB_002dINF.views.admin.adminAuthen_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.WEB_002dINF.views.admin.adminAuthen_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.WEB_002dINF.views.order.stored_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.WEB_002dINF.views.order.stored_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.WEB_002dINF.views.order.history_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.WEB_002dINF.views.order.history_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.WEB_002dINF.views.admin.dashBroad_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.WEB_002dINF.views.admin.dashBroad_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.WEB_002dINF.views.user.userInformation_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.WEB_002dINF.views.user.userInformation_jsp</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>org.apache.jsp.WEB_002dINF.layouts.main_jsp</servlet-name>
+        <servlet-class>org.apache.jsp.WEB_002dINF.layouts.main_jsp</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.index_jsp</servlet-name>
+        <url-pattern>/index.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.WEB_002dINF.views.home.reviewProduct_jsp</servlet-name>
+        <url-pattern>/WEB-INF/views/home/reviewProduct.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.WEB_002dINF.views.home.checkProduct_jsp</servlet-name>
+        <url-pattern>/WEB-INF/views/home/checkProduct.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.WEB_002dINF.views.home.uploadProduct_jsp</servlet-name>
+        <url-pattern>/WEB-INF/views/home/uploadProduct.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.WEB_002dINF.views.home.main_jsp</servlet-name>
+        <url-pattern>/WEB-INF/views/home/main.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.WEB_002dINF.views.cart.shipInformation_jsp</servlet-name>
+        <url-pattern>/WEB-INF/views/cart/shipInformation.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.WEB_002dINF.views.cart.thanks_jsp</servlet-name>
+        <url-pattern>/WEB-INF/views/cart/thanks.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.WEB_002dINF.views.home.productDetail_jsp</servlet-name>
+        <url-pattern>/WEB-INF/views/home/productDetail.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.WEB_002dINF.views.error.index_jsp</servlet-name>
+        <url-pattern>/WEB-INF/views/error/index.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.WEB_002dINF.views.cart.billInformation_jsp</servlet-name>
+        <url-pattern>/WEB-INF/views/cart/billInformation.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.WEB_002dINF.views.home.productList_jsp</servlet-name>
+        <url-pattern>/WEB-INF/views/home/productList.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.WEB_002dINF.views.cart.pay_jsp</servlet-name>
+        <url-pattern>/WEB-INF/views/cart/pay.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.WEB_002dINF.views.cart.cart_jsp</servlet-name>
+        <url-pattern>/WEB-INF/views/cart/cart.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.WEB_002dINF.views.admin.reviewAuthen_jsp</servlet-name>
+        <url-pattern>/WEB-INF/views/admin/reviewAuthen.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.WEB_002dINF.views.order.dashboard_jsp</servlet-name>
+        <url-pattern>/WEB-INF/views/order/dashboard.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.WEB_002dINF.views.user.shopInformation_jsp</servlet-name>
+        <url-pattern>/WEB-INF/views/user/shopInformation.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.WEB_002dINF.views.user.googleLoginHandle_jsp</servlet-name>
+        <url-pattern>/WEB-INF/views/user/googleLoginHandle.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.WEB_002dINF.views.admin.productAuthen_jsp</servlet-name>
+        <url-pattern>/WEB-INF/views/admin/productAuthen.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.WEB_002dINF.views.user.login_jsp</servlet-name>
+        <url-pattern>/WEB-INF/views/user/login.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.WEB_002dINF.views.admin.adminAuthen_jsp</servlet-name>
+        <url-pattern>/WEB-INF/views/admin/adminAuthen.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.WEB_002dINF.views.order.stored_jsp</servlet-name>
+        <url-pattern>/WEB-INF/views/order/stored.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.WEB_002dINF.views.order.history_jsp</servlet-name>
+        <url-pattern>/WEB-INF/views/order/history.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.WEB_002dINF.views.admin.dashBroad_jsp</servlet-name>
+        <url-pattern>/WEB-INF/views/admin/dashBroad.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.WEB_002dINF.views.user.userInformation_jsp</servlet-name>
+        <url-pattern>/WEB-INF/views/user/userInformation.jsp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>org.apache.jsp.WEB_002dINF.layouts.main_jsp</servlet-name>
+        <url-pattern>/WEB-INF/layouts/main.jsp</url-pattern>
+    </servlet-mapping>
+
+<!-- JSPC servlet mappings end -->
+
+<session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

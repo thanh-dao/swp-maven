@@ -56,23 +56,25 @@
             <artifactId>commons-io</artifactId>
             <version>2.11.0</version>
         </dependency>
-        <dependency>
-            <groupId>com.google.cloud.sql</groupId>
-            <artifactId>cloud-sql-connector-jdbc-sqlserver</artifactId>
-            <version>1.7.2</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/hikari-cp/hikari-cp -->
-        <dependency>
-            <groupId>com.zaxxer</groupId>
-            <artifactId>HikariCP</artifactId>
-            <version>3.4.5</version>
-        </dependency>
-
+        
 
     </dependencies>
 
     <build>
         <plugins>
+            <plugin>
+                <groupId>com.google.cloud.tools</groupId>
+                <artifactId>appengine-maven-plugin</artifactId>
+                <version>2.4.4</version>
+                <configuration>
+                    <projectId>
+                        fpt-ecomerse-portal-368108
+                    </projectId>
+                    <version>
+                        GCLOUD_CONFIG
+                    </version>
+                </configuration>
+            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
